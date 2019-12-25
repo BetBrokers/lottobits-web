@@ -4,8 +4,8 @@
 
 ### Sistema de banca de jogo do bicho com pagamento em criptomoedas para  rede deep web, baseada em sorteio universal na blockchain.
 
-A Lottobits foi iniciada com o intuito de desenvolvimento para sistemas de loterias e banca de jogo do bicho usando a anonimidade com distribuição do código do pod para outras redes e desenvolvedores da deep web seguindo o padrão universal de sorteios e dos prêmios, independente da banca
-A Banca Lottobits não é responsável pelas bancas que usam software Lottobits, porém, deve-se ressaltar que todos podem baixar, estudar, contribuir, distribuir e instalar seu próprio pod web Lottobits na rede TOR por sua própria conta e risco sobre as responsabilidades vigentes das premiações de cada banca para cada vencedor.
+A Lottobits foi iniciada com o intuito de desenvolvimento para sistemas de loterias e banca de jogo do bicho usando a anonimidade com distribuiÃ§Ã£o do cÃ³digo do pod para outras redes e desenvolvedores da deep web seguindo o padrÃ£o universal de sorteios e dos prÃªmios, independente da banca
+A Banca Lottobits nÃ£o Ã© responsÃ¡vel pelas bancas que usam software Lottobits, porÃ©m, deve-se ressaltar que todos podem baixar, estudar, contribuir, distribuir e instalar seu prÃ³prio pod web Lottobits na rede TOR por sua prÃ³pria conta e risco sobre as responsabilidades vigentes das premiaÃ§Ãµes de cada banca para cada vencedor.
 
 # 
 # Softwares usados para o desenvolvimento da Lottobits
@@ -19,26 +19,26 @@ A Banca Lottobits não é responsável pelas bancas que usam software Lottobits, po
 
 # Como funciona o sorteio por blockchain
 
-Há um consenso sobre o protocolo com o qual não pode ser alterado sob intervenção humana, pois o sistema de criptomoedas processa através de dados criptográficos, hashs que compôem a ordem dos blocos que decidem o saldo de cada carteira, portanto, é indiscutível que os resultados dos sorteios sejam alterados. Para saber mais entre em <a link="https://pt.wikipedia.org/wiki/Bitcoin">Como funciona o bitcoin</a>.
+HÃ¡ um consenso sobre o protocolo com o qual nÃ£o pode ser alterado sob intervenÃ§Ã£o humana, pois o sistema de criptomoedas processa atravÃ©s de dados criptogrÃ¡ficos, hashs que compÃ´em a ordem dos blocos que decidem o saldo de cada carteira, portanto, Ã© indiscutÃ­vel que os resultados dos sorteios sejam alterados. Para saber mais entre em <a link="https://pt.wikipedia.org/wiki/Bitcoin">Como funciona o bitcoin</a>.
 
-Simplesmente a cada 10 ou 15 minutos um novo bloco é gerado, então, a extração é feita da seguinte forma:
--  Todos os números do bloco são separados das letras
--  Depois são invertidos de trás para frente
--  São cotados 20 números uma milhar de 4 números para cada prêmio
+Simplesmente a cada 10 ou 15 minutos um novo bloco Ã© gerado, entÃ£o, a extraÃ§Ã£o Ã© feita da seguinte forma:
+-  Todos os nÃºmeros do bloco sÃ£o separados das letras
+-  Depois sÃ£o invertidos de trÃ¡s para frente
+-  SÃ£o cotados 20 nÃºmeros uma milhar de 4 nÃºmeros para cada prÃªmio
    
 Exemplo:
     
     000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485
 
-Para saber o resultado dos prêmios deste bloco, o sistema inverte os caracteres de trás para frente, como mostrado abaixo
+Para saber o resultado dos prÃªmios deste bloco, o sistema inverte os caracteres de trÃ¡s para frente, como mostrado abaixo
 
     5841a44884e88ad822c1b86d0c95ad90e0888f2a9c6909ee55dbabe400000000
    
-Depois tira todas as letras deixando apenas os números
+Depois tira todas as letras deixando apenas os nÃºmeros
   
      5841448848882218609590088829690955400000000
    
-Logo em seguida separa os 5 prêmios com os primeiros números, descartando o restante
+Logo em seguida separa os 5 prÃªmios com os primeiros nÃºmeros, descartando o restante
 
      5841
      4488
@@ -48,7 +48,7 @@ Logo em seguida separa os 5 prêmios com os primeiros números, descartando o rest
      
      //90088829690955400000000
      
-Esse é o padrão seguido por todos, pois a cadeia de blocos não pode ser alterada.
+Esse Ã© o padrÃ£o seguido por todos, pois a cadeia de blocos nÃ£o pode ser alterada.
 
 # Como jogar
 
@@ -56,34 +56,34 @@ Esse é o padrão seguido por todos, pois a cadeia de blocos não pode ser alterada
    <p>Apostas Simples</p>
    
    <p>Grupos</p>
-   <p>Você escolhe um grupo (bicho) e se um dos números que fazem parte desse grupo sai na dezena do primeiro prêmio dos resultados (chamado "cabeça"), você ganha 18 vezes o valor que você apostou
-   É a modalidade mais simples de aposta, com mais altas probabilidades de acerto e, por tanto, com ganhos menores.</p>
+   <p>VocÃª escolhe um grupo (bicho) e se um dos nÃºmeros que fazem parte desse grupo sai na dezena do primeiro prÃªmio dos resultados (chamado "cabeÃ§a"), vocÃª ganha 18 vezes o valor que vocÃª apostou
+   Ã‰ a modalidade mais simples de aposta, com mais altas probabilidades de acerto e, por tanto, com ganhos menores.</p>
    
    <p>Dezena</p>
    <p>Pagamento da aposta: 60:1
-   Você escolhe uma dezena qualquer (número de dois dígitos), e se ela cair na dezena do primeiro prêmio, você ganha 60 vezes o valor da sua aposta!</p>
+   VocÃª escolhe uma dezena qualquer (nÃºmero de dois dÃ­gitos), e se ela cair na dezena do primeiro prÃªmio, vocÃª ganha 60 vezes o valor da sua aposta!</p>
 
    <p>Centena Seca</p>
    <p>Pagamento da aposta: 600:1
-   Você escolhe agora uma centena qualquer (número de três dígitos), e se ela cair na centena do primeiro prêmio, você ganha 600 vezes o valor da sua aposta.
+   VocÃª escolhe agora uma centena qualquer (nÃºmero de trÃªs dÃ­gitos), e se ela cair na centena do primeiro prÃªmio, vocÃª ganha 600 vezes o valor da sua aposta.
     
    Ex: Quem apostou 0.0909 bitcoins na centena 209 no sorteio de 17/05, ganhou 54 bitcoins!</p>
     
    <p>Milhar Seca</p>
    <p>Pagamento da aposta: 4000:1.
-   A mesma lógica da Dezena e da Centena Seca. Você aposta em um número de 4 dígitos, um milhar, e se esse milhar cair no primeiro prêmio do sorteio em que você apostou, você ganha 4000 vezes o valor da sua aposta!</p>
+   A mesma lÃ³gica da Dezena e da Centena Seca. VocÃª aposta em um nÃºmero de 4 dÃ­gitos, um milhar, e se esse milhar cair no primeiro prÃªmio do sorteio em que vocÃª apostou, vocÃª ganha 4000 vezes o valor da sua aposta!</p>
 
    <p>Cercados</p>
    
-   <p>Do 1º ao 5º</p>
+   <p>Do 1Âº ao 5Âº</p>
    <p>Pagamento da aposta: 1/5 do valor da aposta simples.
-   Todas as apostas na Cabeça podem ser “cercadas do 1º ao 5º”, o que significa que você ganha se o seu bicho, dezena, centena ou milhar (dependendo do que você decidiu apostar), aparecem em um dos 5 primeiros prêmios. Apesar de as chances de se ganhar assim são bem maiores, o prêmio para essa opção é menor: será igual ao prêmio da aposta simples, mas dividido por 5.</p>
+   Todas as apostas na CabeÃ§a podem ser â€œcercadas do 1Âº ao 5Âºâ€, o que significa que vocÃª ganha se o seu bicho, dezena, centena ou milhar (dependendo do que vocÃª decidiu apostar), aparecem em um dos 5 primeiros prÃªmios. Apesar de as chances de se ganhar assim sÃ£o bem maiores, o prÃªmio para essa opÃ§Ã£o Ã© menor: serÃ¡ igual ao prÃªmio da aposta simples, mas dividido por 5.</p>
 
    <p>Duques</p>
    
    <p>Duques de Dezena</p>
    <p>Pagamento da Aposta: 300:1.
-   Você aposta em duas dezenas, e se as duas saírem entre os cinco primeiros prêmios, você ganha 300 vezes o valor da aposta.
+   VocÃª aposta em duas dezenas, e se as duas saÃ­rem entre os cinco primeiros prÃªmios, vocÃª ganha 300 vezes o valor da aposta.
 
    Exemplo
 
@@ -91,39 +91,45 @@ Esse é o padrão seguido por todos, pois a cadeia de blocos não pode ser alterada
 
    <p>Duque (ou dupla) de Grupo</p>
    <p>Pagamento da aposta: 18,75:1.
-   Escolhe-se dois grupos (bichos) e você ganha se pelo menos um número de cada grupo aparecer na dezena de um dos cinco primeiros prêmios. Ou seja, de 5 bichos, você tem que acertar 2.</p>
+   Escolhe-se dois grupos (bichos) e vocÃª ganha se pelo menos um nÃºmero de cada grupo aparecer na dezena de um dos cinco primeiros prÃªmios. Ou seja, de 5 bichos, vocÃª tem que acertar 2.</p>
    
    
    <p>Terno</p>
-   Joga-se com 3 grupos/dezenas, aparecendo entre os 5 primeiros prêmios.
+   Joga-se com 3 grupos/dezenas, aparecendo entre os 5 primeiros prÃªmios.
 
    <p>Ternos de Grupo</p>
    <p>Pagamento da Aposta: 130:1.
-   Você aposta em 3 grupos, e se os três saírem nos cinco primeiros prêmios (ou seja, de 5 grupos, você acerta 3), você ganha 130 vezes o valor apostado.
+   VocÃª aposta em 3 grupos, e se os trÃªs saÃ­rem nos cinco primeiros prÃªmios (ou seja, de 5 grupos, vocÃª acerta 3), vocÃª ganha 130 vezes o valor apostado.
 
    Exemplo
 
-   Quem apostou 40.000 satoshis no Terno de Grupo Vaca , Macaco e Jacaré , ganhou 0.52 bitcoins.
+   Quem apostou 40.000 satoshis no Terno de Grupo Vaca , Macaco e JacarÃ© , ganhou 0.52 bitcoins.
 
-   Números 97 a 00: grupo Vaca Números 65 a 68: grupo Macaco Números 57a 60: grupo Jacaré</p>
+   NÃºmeros 97 a 00: grupo Vaca NÃºmeros 65 a 68: grupo Macaco NÃºmeros 57a 60: grupo JacarÃ©</p>
    
    <p>Ternos de Dezena</p>
    <p>Pagamento da Aposta: 3000:1.
-   Você aposta em 3 dezenas, e se as três saem entre os cinco primeiros prêmios (ou seja, de 5 dezenas, você acerta 3), você ganha 3000 vezes o valor apostado.
+   VocÃª aposta em 3 dezenas, e se as trÃªs saem entre os cinco primeiros prÃªmios (ou seja, de 5 dezenas, vocÃª acerta 3), vocÃª ganha 3000 vezes o valor apostado.
 
    Exemplo
 
    Quem apostou 5000 satoshis num Terno de Dezena, com o 68, 97 e 09 ganhou 0.15 bitcoins</p>
    
-# Como eu recebo meu prêmio?
+# Como eu recebo meu prÃªmio?
 
-Após você ganhar, vá na seção reinvindicar prêmio, e la informe o seu id do jogo e hash tx da transação bitcoin do seu jogo, após isso, seu pedido será registrado e o seu endereço será mostrado para outros apostadores até se completado os ganhos do seu prêmio totalmente.
+ApÃ³s vocÃª ganhar, vÃ¡ na seÃ§Ã£o reinvindicar prÃªmio, e la informe o seu id do jogo e hash tx da transaÃ§Ã£o bitcoin do seu jogo, apÃ³s isso, seu pedido serÃ¡ registrado e o seu endereÃ§o serÃ¡ mostrado para outros apostadores atÃ© se completado os ganhos do seu prÃªmio totalmente.
 
 # Como instalar o pod no meu servidor 
 
-A Lottobits foi desenvolvida para ser distribuída e descentralizada por toda a deep web em muitos servidores espalhados.
-Este website está divulgando a plataforma para todos conhecerem, então, você pode baixar e hospedar o seu próprio pod da plataforma Lottobits em seu computador.
+A Lottobits foi desenvolvida para ser distribuÃ­da e descentralizada por toda a deep web em muitos servidores espalhados.
+Este website estÃ¡ divulgando a plataforma para todos conhecerem, entÃ£o, vocÃª pode baixar e hospedar o seu prÃ³prio pod da plataforma Lottobits em seu computador.
 
+# Contribua para o crescimento do projeto
+
+FaÃ§a qualquer depÃ³sito no endereÃ§o abaixo, e ajude o projeto seguir
+
+      1LBSsW4A2uVfu3fpf14PcZaMzFuTuqTH3e
+      
 # Contatos
 
 Entre em contato com o grupo no telegram http://t.me/lottobits
